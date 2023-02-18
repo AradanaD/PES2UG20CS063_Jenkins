@@ -4,7 +4,7 @@ pipeline {
 stages{
   stage('Build') {
     steps{
-        sh 'g++ -o PES2UG20CS063 PES2UG20CS063.cpp'
+        sh 'g++ -o PES2UG20CS06 PES2UG20CS063.cpp'
     }
   }
 
@@ -16,7 +16,7 @@ stages{
 
   stage('Deploy') {
     steps{
-      echo 'DEPLOYMENT SUCCESSFUL FROM GITHUB REPO - PES2UG20CS063_Jenkin'
+      echo 'DEPLOYMENT SUCCESSFUL FROM GITHUB REPO - PES2UG20CS063_Jenkins'
     }
   }
 }
