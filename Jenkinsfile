@@ -25,7 +25,7 @@ post {
       echo 'Pipeline was completed'
     }
     failure {
-        echo 'Pipeline has Failed'
+        echo 'Pipeline has Failed
     }
   }
 }
