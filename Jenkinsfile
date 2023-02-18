@@ -20,12 +20,12 @@ stages{
     }
   }
 }
-post {
+pos {
     always {
       echo 'Pipeline was completed'
     }
     failure {
-        ech 'Pipeline has Failed'
+        echo 'Pipeline has Failed'
     }
   }
 }
