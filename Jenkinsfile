@@ -20,7 +20,7 @@ stages{
     }
   }
 }
-pos {
+post {
     always {
       echo 'Pipeline was completed'
     }
