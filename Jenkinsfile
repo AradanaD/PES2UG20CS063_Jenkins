@@ -10,7 +10,7 @@ stages{
 
   stage('Test') {
     steps{
-       sh './PES2UG20CS063'
+       sh './PES2UG20CS06'
     }
   }
 
