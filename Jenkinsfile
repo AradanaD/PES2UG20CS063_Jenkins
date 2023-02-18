@@ -9,7 +9,7 @@ stages{
   }
 
   stage('Test') {
-    steps{
+    step{
        sh './PES2UG20CS063'
     }
   }
@@ -25,7 +25,7 @@ post {
       echo 'Pipeline was completed'
     }
     failure {
-        echo 'Pipeline has Failed
+        echo 'Pipeline has Failed'
     }
   }
 }
